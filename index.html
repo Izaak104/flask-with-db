@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient List </title>
+</head>
+<body>
+    <div>
+        <h1> Patient <Table>
+            <table>
+                <tr>
+                    <th>ID Number </th>
+                    <th>Sex </th>
+                    <th>Email </th>
+                    <th>Phone Number </th>
+            {% for patient in list Patients %}
+                </tr>
+                    <td>{{patient.idnumber }}
+                    <td>{{patient.sex}} </td>
+                    <td>{{patient.email}} </td>
+                    <td>{{patient.phonenumber}} </td>
+                </td>
+             {% end for}
+                    </td>
+                    </td>
+            </table>
+      
+    </div>
+</body>
+
